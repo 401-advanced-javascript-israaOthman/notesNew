@@ -8,6 +8,10 @@
 - [submission PR for lab03](https://github.com/401-advanced-javascript-israaOthman/notes/pull/6)
 - [submission PR for lab04](https://github.com/401-advanced-javascript-israaOthman/notes/pull/9)
 
+- [submission PR from the new repo](https://github.com/401-advanced-javascript-israaOthman/notesNew/pull/1)
+
+
+
 
 
 ### Modules

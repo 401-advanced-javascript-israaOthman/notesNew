@@ -1,0 +1,31 @@
+{
+  "name": "notesNew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-israaOthman/notesNew.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-israaOthman/notesNew/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-israaOthman/notesNew#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.9.16"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "jest": "^26.0.1",
+    "lint": "^0.7.0"
+  }
+}

@@ -1,34 +1,36 @@
 {
-  "name": "notesNew",
+  "name": "notes",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Node Ecosystem",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "jest --coverage --verbose --detectOpenHandles",
-    "lint": "eslint '**/*.js'"
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/401-advanced-javascript-israaOthman/notesNew.git"
+    "url": "git+https://github.com/401-advanced-javascript-osama/notes.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/401-advanced-javascript-israaOthman/notesNew/issues"
+    "url": "https://github.com/401-advanced-javascript-osama/notes/issues"
   },
-  "homepage": "https://github.com/401-advanced-javascript-israaOthman/notesNew#readme",
+  "homepage": "https://github.com/401-advanced-javascript-osama/notes#readme",
   "dependencies": {
-    "@code-fellows/supergoose": "^1.0.2",
+    "dotenv": "^8.2.0",
     "minimist": "^1.2.5",
-    "jest": "^26.0.1",
-    "mongoose": "^5.9.16"
+    "mongoose": "^5.9.15",
+    "superagent": "^5.2.2"
   },
   "devDependencies": {
-    "eslint": "^7.1.0",
-    "lint": "^0.7.0"
-  },
-  "jest": {
-    "testEnvironment": "node"
+    "@code-fellows/supergoose": "^1.0.2",
+    "eslint": "^7.0.0",
+    "jest": "^26.0.1"
   }
 }
